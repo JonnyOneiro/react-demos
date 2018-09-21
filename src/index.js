@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-import App from './components/app';
+import SignIn from './components/sign_in';
 
 ReactDOM.render(
-    <App />,
+    <SignIn/>,
     document.getElementById('root')
 );
